@@ -1,12 +1,40 @@
-.clickable {
+body {
+  background-color: #fff4db;
+  color: #473100;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 48px;
+}
+
+h4 {
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.accent {
+  font-size: 24px;
+}
+
+.links {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+.links:hover {
   text-decoration: underline;
 }
 
-#initially-hidden {
+
+#walrus-hidden {
+  display: none;
+}
+
+#giraffe-hidden {
+  display: none;
+}
+
+#monkey-hidden {
   display: none;
 }
